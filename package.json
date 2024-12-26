@@ -1,0 +1,27 @@
+{
+  "name": "mk-server1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^14.1.0",
+    "@chainsafe/libp2p-noise": "^16.0.0",
+    "@chainsafe/libp2p-yamux": "^7.0.1",
+    "@libp2p/circuit-relay-v2": "^3.1.6",
+    "@libp2p/dcutr": "^2.0.14",
+    "@libp2p/identify": "^3.0.14",
+    "@libp2p/webrtc": "^5.0.22",
+    "@libp2p/websockets": "^9.1.0",
+    "@multiformats/multiaddr": "^12.3.4",
+    "libp2p": "^2.4.2",
+    "libp2p-mk": "^1.4.1",
+    "uint8arrays": "^5.1.0"
+  }
+}
